@@ -1,0 +1,56 @@
+@media (max-width: 490px;) {
+    img {
+        width: 50px;
+    }
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar {
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: red;
+}
+.welcome-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-title {
+    text-align: center;
+    border: solid 1px black;
+    padding: 20px;
+    font-size: 30px;
+}
+.about {
+    text-align: justify;
+}
+img {
+    width: 200px;
+}
+img:hover {
+    width: 220px;
+}
+#projects {
+    text-align: center;
+}
